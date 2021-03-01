@@ -1,0 +1,54 @@
+body {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 20px auto 0;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+canvas {
+    background: #ddd;
+    border-radius: 3px;
+}
+
+p {
+    color: #fff;
+    font-size: 24px;
+}
+
+button {
+    background: #ddd;
+    padding: 15px;
+    color: #1f2629;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    border: none;
+    outline: none
+}
+
+button:hover {
+    background: #ccc;
+}
+
+.score {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 25px;
+    margin: 25px auto;
+}
